@@ -6,11 +6,44 @@
 }
 /************ Index.html  Contact.hmtl Portofolio.html ************/
 /************ Navbar ************/
-#web-brand{
-    background-color: lightgreen;
-    padding: 10px 50px 10px 50px;
-    color: white;
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
 }
+
+h1{
+    background: lightgreen;
+    text-align: center;
+    width: 50%;
+    height:100%;
+    padding: 10px;
+    color: white;
+    
+}
+
+nav{
+    background-color: white;
+    width: 100%;
+}
+ul li {
+   
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+  }
+ul {
+    background-color: white; 
+    list-style-type: none;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: lightgrey;
+    text-decoration: none;
+}
+
 /************ Body ************/
 body{
     background-color: lightgrey;
@@ -74,15 +107,18 @@ input[type=text], select, textarea {
     resize: vertical;
 }
   
-  input[type=submit] {
+input[type=submit] {
     background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
     border: none;
     cursor: pointer;
   }
+#form{
+    height: 600px;
+}
   
-  input[type=submit]:hover {
+input[type=submit]:hover {
     background-color: #45a049;
   }
 
@@ -91,6 +127,13 @@ input[type=text], select, textarea {
 /************ Footer ************/
 #greyline{
     height: 30px;
+}
+
+.portofolio-gap{
+    margin: 120px 0 150px 0;
+}
+#portofolio-line{
+    background-color: white;
 }
 
 .img-portofolio{
@@ -116,12 +159,33 @@ input[type=text], select, textarea {
     transform: translate(-50%, -50%);
 }
 
-@media only screen and (max-width: 440px) {
-    .navbar-nav li{
-        display: inline-block!important;
-        margin-left: 25px;
-    }
-    img{
+@media only screen and (max-width: 400px) {
+    h1{
+        font-size: 20px;
+        background: lightgreen;
+        text-align: center;
         width: 100%;
     }
-  }
+    .background-nav,{
+        background-color: lightgreen;
+        width: 100%;
+    }  
+    #container, #portofolio-line{
+        margin: 0 10px 0 10px;
+    }
+    .img-thumbnail{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    h1{
+        font-size: 20px;
+        background: lightgreen;
+        text-align: center;
+        width: 100%;
+    }    
+}
+
+
