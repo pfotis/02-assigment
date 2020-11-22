@@ -6,9 +6,20 @@
 }
 /************ Index.html  Contact.hmtl Portofolio.html ************/
 
-/************ Main ************/
-main{
-    Background-color: lightgrey;
+/************ Body ************/
+body{
+    background-color: lightgrey;
+}
+
+h2 {
+    color: lightgreen;
+}
+
+#container{
+    margin-top: 70px;
+    border: 1px lightgray solid;
+    background-color: white;
+    margin-bottom: 200px;
 }
 
 /************ Footer ************/
@@ -38,9 +49,35 @@ footer div p{
 }
 
 /************ Index.html ************/
-
+/************ Img ************/
+.img-thumbnail{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
 
 /************ Contact.html ************/
+/************ Style inputs ************/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
 
 
 /************ Portofolio.html ************/
