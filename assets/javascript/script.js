@@ -20,7 +20,7 @@ function aboutMe(){
      paragraph.addClass("paragraph");
      article.append(paragraph);
      $(document).ready(function(){
-        paragraph.load("aboutMe.txt");
+        paragraph.load("./aboutMe.txt");
     });
 
      
