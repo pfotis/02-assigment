@@ -1,139 +1,98 @@
-/************ Reset ************/
+/************************ Reset ************************/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-/************ Index.html  Contact.hmtl Portofolio.html ************/
-/************ Navbar ************/
-h1 {
-    margin-top: 0;
-    margin-bottom: 0;
+/************************ Canvas ************************/
+
+nav, ul, footer, .text-block, input[type=submit], input[type=reset]{
+    background-color: rgb(45, 150, 192);
 }
 
+#portofolio-line, article , #form{
+    background-color: white;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+/************************ Navbar ************************/
+
 h1{
-    background: lightgreen;
     text-align: center;
     width: 50%;
     height:100%;
     padding: 10px;
     color: white;
-    
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 nav{
-    background-color: white;
     width: 100%;
 }
-ul li {
-   
-    display: inline-block;
-    font-size: 20px;
-    padding: 20px;
-  }
+
 ul {
-    background-color: white; 
     list-style-type: none;
     text-align: right;
     margin: 0;
     padding: 0;
 }
 
-a {
-    color: lightgrey;
+ul li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+
+}
+
+li a {
+    color: white;
+    text-align: center;
     text-decoration: none;
 }
 
-/************ Body ************/
-body{
-    background-color: lightgrey;
+a:hover{
+    color: white;
+    text-decoration: none;
 }
 
-h2 {
-    color: lightgreen;
+/************************ main ************************/
+
+main{
+    margin: 100px 0 100px 0;
 }
 
-#container{
-    margin-top: 100px;
+article , #form{
     border: 1px lightgray solid;
-    background-color: white;
-    margin-bottom: 200px;
 }
 
-/************ Footer ************/
+/************************ Footer ************************/
+
 footer{
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;   
-}
-
-footer div p{
-    color: white;
-}
-
-.greenline{
-    width: 100%;
-    height: 10px;
-    background-color: lightgreen;
-}
-
-.greyline{
-    background-color: rgb(58, 56, 56);
     width: 100%;
     height: 60px;
     text-align: center;
     padding-top: 18px;
 }
 
-/************ Index.html ************/
-/************ Img ************/
+footer p{
+    color: white;
+}
+
+/************************ Image ************************/
 .img-thumbnail{
     float: left;
     height: 300px;
     width: 250px;
     margin-right: 10px;
     margin-bottom: 5px;
-}
-
-/************ Contact.html ************/
-/************ Style inputs ************/
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
-  
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-  }
-#form{
-    height: 600px;
-}
-  
-input[type=submit]:hover {
-    background-color: #45a049;
-  }
-
-
-/************ Portofolio.html ************/
-/************ Footer ************/
-#greyline{
-    height: 30px;
-}
-
-.portofolio-gap{
-    margin: 120px 0 150px 0;
-}
-#portofolio-line{
-    background-color: white;
 }
 
 .img-portofolio{
@@ -147,7 +106,6 @@ input[type=submit]:hover {
 }
 
 .text-block {
-    background-color: lightgreen;
     width: 250px;
     padding: 10px 0 10px 0;
     text-align: center;
@@ -159,39 +117,67 @@ input[type=submit]:hover {
     transform: translate(-50%, -50%);
 }
 
-/*****************************************************/
-@media only screen and (max-width: 400px) {
+/******************** Style inputs *********************/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit], input[type=reset] {
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+#form{
+    height: 600px;
+}
+  
+input[type=submit]:hover, input[type=reset]:hover {
+    opacity: 0.5;
+}
+
+/************************ @media ************************/
+
+@media only screen and (max-width: 770px) {
+
+    nav, ul, footer, .text-block, input[type=submit], input[type=reset]{
+        background-color: rgb(25, 173, 82);
+    }
+
     h1{
         font-size: 20px;
-        background: lightgreen;
+        text-align: center;
+        width: 100%;
+    }    
+}
+
+@media only screen and (max-width: 400px) {
+    
+    nav, ul, footer, .text-block, input[type=submit], input[type=reset]{
+        background-color: rgb(206, 73, 21);
+    }
+    
+    h1{
+        font-size: 20px;
         text-align: center;
         width: 100%;
     }
-    .background-nav,{
-        background-color: lightgreen;
-        width: 100%;
-    }  
-    #container, #portofolio-line{
-        margin: 0 10px 0 10px;
+    
+    main{
+        margin: 50px 10px 80px 10px;
     }
-
-    .media-container{
-        margin-top: 50px;
-        margin-bottom: 100px;
-    }
+    
     .img-thumbnail{
         margin-left: 10%;
         margin-right: 10%;
     }
 }
 
-@media only screen and (max-width: 770px) {
-    h1{
-        font-size: 20px;
-        background: lightgreen;
-        text-align: center;
-        width: 100%;
-    }    
-}
+
 
 
