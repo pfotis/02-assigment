@@ -1,20 +1,52 @@
 var assigments = [
     {
-        image : "",
-        title : "",
-        webpage : "",
-        repository : ""
+        title : "Code Refactor",
+        image : "./assets/image/portofolio/cssFile1.png",
+        webpage : "https://pfotis.github.io/code-refactor/",
+        repository : "https://github.com/pfotis/code-refactor"
     },
     {
-        image : "",
-        title : "",
-        webpage : "",
-        repository : ""
+        title : "Password Generator",
+        image : "./assets/image/portofolio/first_look.png",
+        webpage : "https://pfotis.github.io/generator-password/",
+        repository : "https://github.com/pfotis/generator-password"
+    },
+    {
+        title : "Code Quiz",
+        image : "./assets/image/portofolio/startQuiz.png",
+        webpage : "https://pfotis.github.io/Code-Quiz/",
+        repository : "https://github.com/pfotis/Code-Quiz"
+    },
+    {
+       
+        title : "Day Planner",
+        image : "./assets/image/portofolio/in_the_begin.png",
+        webpage : "https://pfotis.github.io/Day-Planner/",
+        repository : "https://github.com/pfotis/Day-Planner"
+    },
+    {
+       
+        title : "Weather Dashboard",
+        image : "./assets/image/portofolio/add_cities.png",
+        webpage : "https://pfotis.github.io/Weather-Dashboard/",
+        repository : "https://github.com/pfotis/Weather-Dashboard"
+    },
+    {
+        title : "Melbourne Reboot",
+        image : "./assets/image/portofolio/APIproject.png",
+        webpage : "https://h-mai.github.io/APIproject/index.html",
+        repository : "https://github.com/h-mai/APIproject"
+    },
+    {
+        title : "Portofolio",
+        image : "./assets/image/portofolio/",
+        webpage : "https://pfotis.github.io/portofolio/",
+        repository : "https://github.com/pfotis/portofolio"
     },
     
 ];
 
-function addAssigment(photo , projectName, webpage, repository){
+function addAssigment(projectName, photo, webpage, repository){
 
     var line = $("<div>");
     line.addClass("row");
