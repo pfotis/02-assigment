@@ -10,10 +10,10 @@ body{
 }
 
 nav, ul, footer, .text-block, input[type=submit], input[type=reset]{
-    background-color: rgb(45, 150, 192);
+    background-color: rgb(44, 75, 87);
 }
 
- .rowBackground ,article , #form{
+ .background ,article , #form{
     background-color: white;
 }
 /************************ Navbar ************************/
@@ -67,6 +67,15 @@ article , #form{
     border: 1px lightgray solid;
 }
 
+.text-block {
+    width: 250px;
+    margin: 25px 30px 25px 30px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+
 /************************ Footer ************************/
 
 footer{
@@ -95,28 +104,9 @@ footer p{
 
 .img-portofolio{
     display: block;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 25px 30px 25px 30px;
     height: 250px;
     width: 250px;
-}
-
-.img-portofolio:hover{
-    opacity: 0.57;
-}
-
-.text-block {
-    width: 250px;
-    padding: 10px 20px 10px 20px;
-    text-align: center;
-    color: white;
-    font-size: 22px;
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 /******************** Style inputs *********************/
@@ -148,7 +138,7 @@ input[type=submit]:hover, input[type=reset]:hover {
 @media only screen and (max-width: 770px) {
 
     nav, ul, footer, .text-block, input[type=submit], input[type=reset]{
-        background-color: rgb(25, 173, 82);
+        background-color: rgb(35, 85, 54);
     }
 
     h1{
@@ -161,7 +151,7 @@ input[type=submit]:hover, input[type=reset]:hover {
 @media only screen and (max-width: 400px) {
     
     nav, ul, footer, .text-block, input[type=submit], input[type=reset]{
-        background-color: rgb(206, 73, 21);
+        background-color: rgb(85, 51, 38);
     }
     
     h1{
