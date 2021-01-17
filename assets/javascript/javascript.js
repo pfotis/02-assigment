@@ -58,7 +58,7 @@ function addAssigment(projectName, photo, webpage, repository){
 
     var image = $("<img>");
     image.attr("src", photo);
-    image.attr("alt", "name");
+    image.attr("alt", projectName);
     image.addClass("img-portofolio");
     firstCollum.append(image);
 
@@ -71,24 +71,30 @@ function addAssigment(projectName, photo, webpage, repository){
     title.text(projectName);
     secondCollum.append(title);
 
-    linkFunction(webpage);
+    var namelink = ["Webpage", "Repository"];
 
-    linkFunction(repository);
+    linkFunction(webpage, namelink[0]);
+
+    linkFunction(repository, namelink[1]);
 
 
-    function linkFunction(webpage){
+    function linkFunction(webpage , nameLink){
 
         var linkWebpage = $("<a>");
         linkWebpage.attr("href", webpage);
         linkWebpage.attr("target", "_blank");
+        linkWebpage.addClass("button buttonColor");
         secondCollum.append(linkWebpage);
     
         var linkTitle = $("<div>");
-        linkTitle.addClass("text-block");
-        linkTitle.text("webpage");
+        linkTitle.text(nameLink);
         linkWebpage.append(linkTitle);
     }
 
+}
+
+for(var i=0; i<assigments.length; i++){
+    addAssigment(assigments[i].title,assigments[i].image, assigments[i].webpage, assigments[i].repository);
 }
 
 
