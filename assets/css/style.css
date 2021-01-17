@@ -13,7 +13,7 @@ nav, ul, footer, .text-block, input[type=submit], input[type=reset]{
     background-color: rgb(44, 75, 87);
 }
 
- .background ,article , #form{
+ .background ,article , .form{
     background-color: white;
 }
 
@@ -67,8 +67,9 @@ main{
     margin: 100px 0 100px 0;
 }
 
-article , #form{
+article , .form{
     border: 1px lightgray solid;
+    margin : 15px 0 15px 0;
 }
 
 
@@ -94,7 +95,7 @@ footer p{
     float: left;
     height: 300px;
     width: 250px;
-    margin-right: 10px;
+    margin-right: 20px;
     margin-bottom: 5px;
 }
 
@@ -105,6 +106,37 @@ footer p{
     margin: 25px 30px 25px 30px;
     height: 250px;
     width: 250px;
+}
+
+/************************ contact.html ************************/
+/************************ button ************************/
+
+.info{
+    font-size:24px;
+    margin-left: 10px;
+}
+
+.fas {
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px 0 10px;
+}
+
+.fas:hover{
+    opacity: 0.7;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github {
+    background: black;
+    color: white;
 }
 
 /******************** Style inputs *********************/
@@ -122,16 +154,16 @@ input[type=submit], input[type=reset] {
     padding: 12px 20px;
     border: none;
     cursor: pointer;
-  }
-#form{
-    height: 600px;
 }
   
 input[type=submit]:hover, input[type=reset]:hover {
     opacity: 0.5;
 }
 
+
+/************************ portofolio.html ************************/
 /************************ button & title ************************/
+
 .text-block, .button {
     width: 250px;
     font-family: Arial, Helvetica, sans-serif;
@@ -200,6 +232,10 @@ input[type=submit]:hover, input[type=reset]:hover {
         font-size: 20px;
         text-align: center;
         width: 100%;
+    }
+
+    p { 
+        display: inline-block;
     }
     
     main{
