@@ -39,7 +39,7 @@ var assigments = [
     },
     {
         title : "Portofolio",
-        image : "./assets/image/portofolio/",
+        image : "./assets/image/portofolio/aboutMe.png",
         webpage : "https://pfotis.github.io/portofolio/",
         repository : "https://github.com/pfotis/portofolio"
     },
