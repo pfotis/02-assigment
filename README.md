@@ -11,26 +11,26 @@ The following images are from my portofolio desktop version and mobile version.
 
 ###  Desktop 
 
-<img src="./assets/images/readme/aboutMe.png" alt="About me">
+<img src="./assets/image/readme/aboutMe.png" alt="About me">
 
-<img src="./assets/images/readme/contact.png" alt="contact">
+<img src="./assets/image/readme/contact.png" alt="contact">
 
-<img src="./assets/images/readme/contact2.png" alt="contact">
+<img src="./assets/image/readme/contact2.png" alt="contact">
 
-<img src="./assets/images/readme/portofolio.png" alt="portofolio">
+<img src="./assets/image/readme/portofolio.png" alt="portofolio">
 
-<img src="./assets/images/readme/portofolio2.png" alt="portofolio">
+<img src="./assets/image/readme/portofolio2.png" alt="portofolio">
 
 
 ###  Mobile 
 
-<img src="./assets/images/readme/mobileAboutMe.png" alt="About me">
+<img src="./assets/image/readme/mobileAboutMe.jpg" alt="About me">
 
-<img src="./assets/images/readme/mobileContact.png" alt="contact">
+<img src="./assets/image/readme/mobileContact.jpg" alt="contact">
 
-<img src="./assets/images/readme/mobileContact2.png" alt="contact">
+<img src="./assets/image/readme/mobileContact2.jpg" alt="contact">
 
-<img src="./assets/images/readme/mobilePortofolio.png" alt="portofolio">
+<img src="./assets/image/readme/mobilePortofolio.jpg" alt="portofolio">
 
-<img src="./assets/images/readme/mobilePortofolio2.png" alt="portofolio">
+<img src="./assets/image/readme/mobilePortofolio2.jpg" alt="portofolio">
 
