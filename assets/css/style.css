@@ -107,6 +107,17 @@ footer p{
     height: 250px;
     width: 250px;
 }
+/************************ index.html ************************/
+
+.fa-file-pdf-o {
+    font-size:24px;
+    color: blue;
+}
+
+.fa-file-pdf-o:hover {
+
+    color: lightblue;
+}
 
 /************************ contact.html ************************/
 /************************ button ************************/
