@@ -109,12 +109,15 @@ footer p{
 }
 /************************ index.html ************************/
 
-.fa-file-pdf-o {
+.fa-file-pdf-o, .fa-download {
     font-size:24px;
     color: blue;
 }
+.fa-file-pdf-o, .fa-download{
+    margin-left: 15px;
+}
 
-.fa-file-pdf-o:hover {
+.fa-file-pdf-o:hover, .fa-download:hover {
 
     color: lightblue;
 }
