@@ -43,7 +43,42 @@ var assigments = [
         webpage : "https://pfotis.github.io/portofolio/",
         repository : "https://github.com/pfotis/portofolio"
     },
-    
+    {
+        title : "burger",
+        image : "./assets/image/portofolio/first_impress.png",
+        webpage : "https://secret-garden-47035.herokuapp.com/",
+        repository : "https://github.com/pfotis/burger"
+    },
+    {
+        title : "Restaurateur",
+        image : "./assets/image/portofolio/login.png",
+        webpage : "https://frozen-woodland-65100.herokuapp.com/",
+        repository : "https://github.com/wendyVo/Project02.git"
+    },
+    {
+        title : "readMe-Generator",
+        image : "./assets/image/portofolio/readme1.png",
+        webpage : "https://drive.google.com/file/d/1W41klD2MLD-vAK8Abcu3CTzQpkCfHNL0/view",
+        repository : "https://github.com/pfotis/readMe-Generator"
+    },
+    {
+        title : "employee-tracker",
+        image : "./assets/image/portofolio/employeeList.png",
+        webpage : "https://drive.google.com/file/d/1mQIzJpGsT2iBNYjOlvrsvdQfpXXiyIcy/view",
+        repository : "https://github.com/pfotis/employee-tracker"
+    },
+    {
+        title : "note-taker",
+        image : "./assets/image/portofolio/index.png",
+        webpage : "https://arcane-hamlet-40149.herokuapp.com/",
+        repository : "https://github.com/pfotis/note-taker"
+    },
+    {
+        title : "team-profile-generator",
+        image : "./assets/image/portofolio/teamPhoto.png",
+        webpage : "https://github.com/pfotis/team-profile-generator",
+        repository : "https://github.com/pfotis/team-profile-generator"
+    }
 ];
 
 function addAssigment(projectName, photo, webpage, repository){
